@@ -2,6 +2,21 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
+import React from "react";
+import { Inter } from "next/font/google";
+
+
+import Link from 'next/link';
+import Image from 'next/image'
+import { motion } from "framer-motion"
+
+import Navbar from "./navbar/navbar"
+import Footer from "./footer/footer"
+import FooterData from "./footer/footer.json";
+import NavbarData from "./navbar/navbar.json";
+
+const inter = Inter({ subsets: ["latin"] });
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -23,6 +38,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
