@@ -1,0 +1,189 @@
+{
+
+
+    "logo" : "/data/logo/iiti.png",
+    "buttons" : [
+
+
+        {
+        "title": "ABOUT US",
+        "modal" : [
+
+            {
+
+                "title": "About IITI",
+                "link": "/aboutus/aboutiitindore"
+
+            },
+            {
+
+                "title": "Academic Programs",
+                "link": "/aboutus/academicprograms"
+
+            },
+            {
+
+                "title": "Why Recruit from IITI",
+                "link": "/aboutus/whyrecruit"
+
+            },
+            {
+
+                "title": "Student Activities",
+                "link": "/aboutus/studentactivities"
+
+            },
+            {
+
+                "title": "Achievements",
+                "link": "/aboutus/achievements"
+
+            }
+
+
+
+
+        ],
+        "modalbutton" : "/data/buttonspngs/dropdownbutton.png",
+        "ismodal" : true
+        },
+        
+        {
+            "title": "STUDENTS' CORNER",
+            "modal" : [
+    
+                {
+    
+                    "title": "Student Login",
+                    "link": "/studentscorner/studentlogin"
+    
+                },
+                {
+    
+                    "title": "FAQs",
+                    "link": "/studentscorner/faqs"
+    
+                }
+    
+    
+    
+            ],
+            "modalbutton" : "/data/buttonspngs/dropdownbutton.png",
+            "ismodal" : true
+        },
+
+        {
+                "title": "RECRUTIERS' CORNER",
+                "modal" : [
+        
+                    {
+        
+                        "title": "Brochure",
+                        "link": "/recruiterscorner/brochure"
+        
+                    },
+                    
+                    {
+        
+                        "title": "Recruiter Login",
+                        "link": "/recruiterscorner/recruiterlogin"
+        
+                    },
+                    {
+        
+                        "title": "Timelines",
+                        "link": "/recruiterscorner/timelines"
+        
+                    },
+                    {
+        
+                        "title": "Demographics",
+                        "link": "/recruiterscorner/demographics"
+        
+                    },
+                    {
+        
+                        "title": "FAQs",
+                        "link": "/recruiterscorner/recruiterfaqs"
+        
+                    },
+                    {
+        
+                        "title": "AIPC Guidelines",
+                        "link": "/recruiterscorner/aipcguidelines"
+        
+                    },
+                    {
+        
+                        "title": "Facilities",
+                        "link": "/recruiterscorner/facilities"
+        
+                    }
+        
+        
+        
+                ],
+                "modalbutton" : "/data/buttonspngs/dropdownbutton.png",
+                "ismodal" : true
+        },
+
+        {
+            "title": "EXTERNAL OPPORTUNITIES",
+            "modal" : [  ],
+            "ismodal" : false
+        },
+
+        {
+            "title": "CONTACT US",
+            "modal" : [
+    
+                {
+    
+                    "title": "About T&P Cell",
+                    "link": "/contactus/abouttpc"
+    
+                },
+                {
+    
+                    "title": "Staff & Team",
+                    "link": "/contactus/staff&team"
+    
+                },
+                {
+    
+                    "title": "Faculty",
+                    "link": "/contactus/faculty"
+    
+                },
+                
+                {
+    
+                    "title": "How to Reach IITI?",
+                    "link": "/contactus/howtoreachiiti"
+    
+                },
+                {
+    
+                    "title": "Developed By",
+                    "link": "/contactus/developedby"
+    
+                }
+    
+    
+    
+            ],
+            "modalbutton" : "/data/buttonspngs/dropdownbutton.png",
+            "ismodal" : true
+        }
+
+
+
+
+    ]
+
+
+
+
+
+
+}
